@@ -1,0 +1,217 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: '[DRAFT] Максим Сошнев'
+title: '[DRAFT] Инженер по разработке ПО, middle'
+
+email: soshnev.maxim11@gmail.com
+phone: +7-(911)-724-67-08
+
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# linkedin_username: jekyll
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: "fab fa-telegram"
+  url: https://t.me/MSoshnev
+
+# About Section
+about_title: "О себе"
+about_profile_image: images/me.jpg
+about_content: |
+  'Дорогой рекрутер, резюме IN PROGRESS'
+
+content:
+  - title: Технические навыки
+    layout: list
+    content:
+      - layout: top-left
+        description: |
+          Дорогой рекрутер, резюме IN PROGRESS
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: top
+        border: weak
+        title: YADRO
+        sub_title: Инженер по разработке ПО, middle
+        caption: июнь 2022 - настоящее время
+        link: https://yadro.com/
+        quote: >
+          Компания-разработчик ИТ-оборудования
+        description: lalalala
+
+      - layout: top
+        border: weak
+        title: Yandex practicum
+        sub_title: Код ревьювер
+        caption: май 2023 - настоящее время
+        link: http://emzior.ru/
+        quote: >
+          Сервис онлайн-образования
+        description: lalalala
+
+      - layout: top
+        border: weak
+        title: Emzior Technologies
+        sub_title: Инженер-программист, middle
+        caption: апрель 2022 - июнь 2023
+        link: http://emzior.ru/
+        quote: >
+          Компания-разработчик программного обеспечения для телекоммуникационного оборудования
+        description: |
+
+          - Разработка нового функционала и поддержка существующей кодовой базы для системы управления программным маршрутизатором (средствами языка <mark>Python</mark>).
+
+          - Разработка различных пользовательских интерфейсов - GUI, WEB, text based (средствами <mark>clish</mark>, <mark>Qt</mark>/<mark>PyQt</mark> и др.)
+
+          - Разработка и поддержка реализаций сетевых протоколов (средствами <mark>C</mark>/<mark>C++</mark>).
+
+          - Доработка и исправление багов opensource утилит для linux (средствами <mark>C</mark>, <mark>Python</mark>).
+
+          - Проведение code-review.
+
+          - Написание тестовых сценариев для настройки маршрутизаторов, коммутаторов и другого оборудования.
+
+          - Настройка разрабатываемого ПО на процессорных платах (Байкал, Эльбрус) и виртуальных машинах. Настройка сетевых топологий. Тестирование сетевых устройств средствами <mark>Jenkins</mark>.
+
+          - Разработка собственных пайплайнов для Jenkins (средствами <mark>Python</mark> и <mark>bash</mark>).
+
+          - Взаимодействие с командой аналитиков и тестировщиков по улучшению функционала сетевых устройств.
+
+      - layout: top
+        border: weak
+        title: Wargaming (World Of Warships)
+        sub_title: Программист, стажёр
+        caption: май 2021 — август 2021
+        link: https://www.worldofwarships.ru/
+        quote: >
+          Компания-разработчик компьютерных игр
+        description: |
+          Программист в проекте "Корабли".
+
+          - Разработка игрового инструментария средствами <mark>C++</mark> и <mark>Python</mark>.
+
+          - Оптимизация существующего механизма балансировки нагрузки на сервера.
+
+      - layout: top
+        border: weak
+        title: ФГУП "НПП Гамма"
+        sub_title: Техник ТЗИ
+        caption: июль 2020 — май 2021
+        link: https://nppgamma.ru
+        quote: >
+          Компания-интегратор технических и программно-аппаратных средств защиты информации.
+        description: |
+          Техник в отделе сертификационных испытаний программно-аппаратных средств.
+
+          - Проведение сертификационных испытаний программного продукта, направленных на поиск недекларированных возможностей согласно документам ФСТЭК России.
+
+          - Разработка инструментария для проведения сертификационных испытаний (средствами языков <mark>C++</mark>, <mark>Java</mark>, <mark>Python</mark>).
+
+          - Участие в опытно-конструкторских работах. Разработка инструментария фаззинг-тестирования программных систем (средствами языка <mark>C++</mark>).
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: top
+        border: weak
+        title: Санкт-Петербургский политехнический университет Петра Великого (СПБПУ)
+        sub_title: Специалист по кибербезопасности и защиты информации (5 курс)
+        caption: сентябрь 2018 - июнь 2023
+        # quote: >
+          # Short institution or course description (optional)
+        description: |
+          Институт: Институт Кибербезопасности и Защиты Информации (ИКиЗИ)
+
+          Направление подготовки: Информационная Безопасность Автоматизированных Систем (10.05.03)
+
+          Квалификация: специалист
+
+          Основные дисциплины:
+            - Безопасность компьютерных сетей
+
+            - Безопасность операционных систем
+
+            - Безопасность интернет-приложений
+
+            - Построение защищенных баз данных
+
+            - Криптографические методы защиты информации
+
+            - Программно-аппаратные средства обеспечения информационной безопасности
+
+            - Организационно-правовое обеспечение информационной безопасностью
+
+            - Методы и средства противодействия целенаправленным атакам
+
+          Научные проекты:
+
+            - Систематизация угроз безопасности систем машинного обучения (НИР)
+
+            - Метод защиты от угрозы извлечения модели машинного обучения (ВКР)
+
+            - Разработка нейросетевых методов обнаружения кибератак в сетях промышленного интернета вещей
+
+            - Разработка системы электронного голосования на основе задач теории решеток
+
+            - Сравнение фреймворков квантового машинного обучения
+
+            - Атаки раскрытия членства при k-анонимизации
+
+            - Графовые методы представления функциональных компонентов программных систем
+
+  - title: Дополнительное образование
+    layout: list
+    content:
+      - layout: top
+        border: weak
+        title: Cisco Network Academy
+        caption: сентябрь 2020 - апрель 2021
+        description: |
+          Пройдены курсы:
+
+            - Routing and switching
+
+            - Network Security
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]
