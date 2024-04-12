@@ -6,8 +6,8 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: '[DRAFT] Максим Сошнев'
-title: '[DRAFT] Инженер по разработке ПО, middle'
+name: '[DRAFT] Maxim Soshnev'
+title: '[DRAFT] Software Engineer, middle'
 
 email: soshnev.maxim11@gmail.com
 phone: +7-(911)-724-67-08
