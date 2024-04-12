@@ -28,10 +28,10 @@ additional_links:
   url: https://t.me/MSoshnev
 
 # About Section
-about_title: "О себе"
+about_title: "About"
 about_profile_image: images/me.jpg
 about_content: |
-  'Дорогой рекрутер, резюме IN PROGRESS'
+  Дорогой рекрутер, резюме IN PROGRESS
 
 content:
   - title: Технические навыки
@@ -41,7 +41,7 @@ content:
         description: |
           Дорогой рекрутер, резюме IN PROGRESS
 
-  - title: Опыт работы
+  - title: Experiences
     layout: list
     content:
       - layout: top
